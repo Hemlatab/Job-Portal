@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Job Portal</title>
+	<link rel="icon" type="image/png" href="images/jobify-logo.png"/>
+
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
@@ -52,6 +54,7 @@
 			<h1>Apply today for your next role</h1>
 
 			<h3 style="text-align: center;">with one of these leading companies</h3>
+
 	</div> 
 <br />
 
@@ -60,6 +63,43 @@
 		<h1>Choose your sector</h1>
 
 	
+
+
+		<div class="row" id="companies">
+
+			<div class="box-companies">
+
+			<img src="images/hsbc.png" /> <br/>
+			<hr>
+				Jobs at <a href="#">HSBC</a>
+		</div>
+
+		<div class="box-companies">
+			<img src="images/lloyds.png" /><br/>
+			<hr>
+				Jobs at <a href="#">Lloyds</a>
+		</div>
+
+		<div class="box-companies">
+			<img src="images/tkmaxx.png" /><br/>
+				<hr>
+				Jobs at <a href="#">TkMaxx</a>
+		</div>
+
+		</div> 
+	</div>
+	</div> 
+<br />
+
+<div class="sector-row">
+	
+		<h1>Choose your sector</h1>
+
+		<div class="main-container">
+
+
+		</div>
+
 </div>
 	<br />
 

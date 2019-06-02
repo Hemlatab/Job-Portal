@@ -155,7 +155,10 @@ label{
 .main-container {
     width: 900px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16b4539eb8be5c1a04e051d3088603b572229129
 #tile1 {
     width: 170px;
     height: 140px;
@@ -197,6 +200,7 @@ label{
 	display: inline-flex;
 
 }
+<<<<<<< HEAD
 .sector-box{
 
 	
@@ -215,6 +219,8 @@ label{
 	left:50%;
 	transform: translate(-50%,-50%);
 }
+=======
+>>>>>>> 16b4539eb8be5c1a04e051d3088603b572229129
 
 #sector-image{
 
