@@ -55,16 +55,6 @@
 
 			<h3 style="text-align: center;">with one of these leading companies</h3>
 
-	</div> 
-<br />
-
-<div class="sector">
-	
-		<h1>Choose your sector</h1>
-
-	
-
-
 		<div class="row" id="companies">
 
 			<div class="box-companies">
@@ -93,12 +83,22 @@
 
 <div class="sector-row">
 	
-		<h1>Choose your sector</h1>
+		<div class="container" id="sector">
 
-		<div class="main-container">
+		<div class="company-text">
+			
+			<h1>Choose your sector</h1>
 
+	<h3 style="text-align: center;">with one of these leading companies</h3>
 
-		</div>
+<div class="row" id="sectors">
+
+	<div class="box-sectors">
+
+	<img src="./images/graduates.jpg" /> <br/>
+	<hr>
+		Graduates
+</div>
 
 </div>
 	<br />
@@ -135,7 +135,7 @@
 	</div>
 
 	<div class="footer">
-
+		<div class="social">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
@@ -148,11 +148,11 @@
 		<a href="#"><small>COOKIES</small></a>
 		<a href="#"><small>TERMS & CONDITIONS</small></a>
 
-		<p> <small>Copyright &copy; 2017</small></p>
+		<p> <small>Copyright &copy; <?php echo date('Y');?></small></p>
 
 	</div>
 
 	</div>
-
+	</div>
 </body>
 </html>

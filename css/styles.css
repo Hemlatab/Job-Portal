@@ -1,9 +1,6 @@
 body {
-
  width: 100%;
- z-index:1;
  margin: 0;
- padding: 0;
 }
 
 /* menu bar */
@@ -194,7 +191,7 @@ label{
 .clearfix {
     overflow:auto;
 }
-
+/** Styles for Sector **/
 #sector-row{
 
 	display: inline-flex;
@@ -681,7 +678,7 @@ div#circle1:hover{
 	border-radius: 5px;
 }
 
-/* Social media icons */
+/* Social media icons
 
 .fa {
   padding: 15px;
@@ -691,8 +688,23 @@ div#circle1:hover{
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+} */
+/** styles for social media **/
+.social [class*="fa fa-"] {
+    /* background-color: #333; */
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
