@@ -1,41 +1,60 @@
 body {
  width: 100%;
  margin: 0;
+ background-color: #ffffff;
+ font-family: Helvetica;
 }
 
-/* menu bar */
-nav{
+/** Styles for menu bar **/
+
+.navbar{
+	background-color:#1f5786;
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+	
+  }
+  
+  .logo{
+	flex:1;
+	align-self:center;
+	
+  }
+  
+  .navbar ul li{
+	list-style-type:none;
+	 display:inline;
+	margin:5px;
+  }
+  .register-btn{
+	  padding: 10px;
+	  background-color: orange;
+	  font-weight: bold;
+  }
+/* .navbar{
+	display: flex;
+	justify-content: flex-end;
 	background-color: #1f5786;
 }
-
-ul{
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
-	overflow: hidden;
-	background-color: #1f5786;
+.logo{
+	display: flex 1;
+	align-self: center;
 }
 
-a{
-	text-decoration: none;
-	color: blue;
-}
-li{
+.navbar ul li{
 	display: inline;
-	float: left;
+	list-style-type: none;
 }
+ul{
+	padding: 0;
+} */
 
-li a{
-
-	display: block;
+.navbar a{
 	color: white;
-	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	font-family: Helvetica;
-}
+} 
 .active{
-
 	background-color: #d85808;
 	padding: 14px;
 }
@@ -51,11 +70,7 @@ h3{
 	color: black;
 	font-family: Helvetica;
 	font-weight: lighter;
-}
-
-body{
-
-	background-color: white;
+	text-align: center;
 }
 
 #image-home{
@@ -64,7 +79,7 @@ body{
 	min-height: 640;
 
 }
-/* Hero image area */
+/** Styles for Hero image area **/
 .hero-image{
 
 	/*--background-image:url("images/image-home.jpg");*/
@@ -85,7 +100,11 @@ body{
   transform: translate(-50%, -50%);
   color: white;
   font-family:'Marck Script';
-
+}
+.find-job{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
 }
 
 label{
@@ -124,14 +143,12 @@ label{
 	opacity: 0.6;
 	border-radius: 8px;
 }
-/* company section */
+/** Styles for company section **/
 
 #company{
-
 	background-color: #f5f7fa;
 	padding-top: 20px;
-	padding-bottom: 30px;
-	
+	padding-bottom: 30px;	
 }
 
 .company-text{
@@ -147,15 +164,16 @@ label{
     padding: 30px;
 }
 
+#hr{
+	width:250px;
+	display: inline-flex;
+}
 /*  sector section */
 
 .main-container {
     width: 900px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 16b4539eb8be5c1a04e051d3088603b572229129
 #tile1 {
     width: 170px;
     height: 140px;
@@ -192,84 +210,80 @@ label{
     overflow:auto;
 }
 /** Styles for Sector **/
-#sector-row{
-
-	display: inline-flex;
-
+#sectors{
+	display: inline-block;
+	position: relative;
+	text-align: center;	
 }
-<<<<<<< HEAD
-.sector-box{
-
-	
+.box-sectors{
+	position: relative;
+	display: inline-block;
+	margin: 8px;
+    padding: 8px;
 }
-#text-sector{
+.box-sectors::before{
+	content: '';
+	background-color: #343a40;
 	position: absolute;
-	top: 100px
-	left:0;
-	width: 100%;
-	margin: 0 auto;
+	top:0;
+	bottom:0;
 }
-.sector-text{
-
+.sector-row{
+	padding: 80px 10px;
+}
+.text-sector{
 	position: absolute;
 	top: 50%;
 	left:50%;
 	transform: translate(-50%,-50%);
+	color:#ffffff;
+	font-size: 22px;
 }
-=======
->>>>>>> 16b4539eb8be5c1a04e051d3088603b572229129
-
+/* .img-sectors{
+	
+} */
 #sector-image{
-
 	border-radius: 8px;
 	margin-right: 50px;
 	margin-left: 20px;
 }
 
 #sector-image:hover {
-
 	opacity: 0.50;	
 }
 
 /*  Links to jobs, recruiters, about us */
 
 table{
-
 	padding: 30px;
     text-align: left;
-    font-family: Helvetica;
     color: white;
     width: 100%;
     font-weight: lighter;
 }
 
 table th{
-
 	text-transform: uppercase;
 	font-weight: normal;
 }
 
 table td{
-
 	font-family: Helvetica;
 	color: #dbf8ff;
 	padding: 5px;
 }
 
 #table-row{
-
 	background-color: #222e39;
 }
 
 /* Login Page */
 
 .container-login{
-
 	font-family: Helvetica;
 	text-align: center;
 }
 #login-btn{
-
 	color: white;
 	background-color: #29a3c1;
 	padding: 10px;
@@ -287,11 +301,13 @@ table td{
 	border-radius: 8px;
 	font-size: 18px;
 	font-weight: bolder;
+	float: right;
 }
 
 #register{
-
+	float: right;
 	font-weight: bold;
+	background-color:orange;
 }
 
 /* Job seeker's register */
@@ -307,14 +323,7 @@ table td{
 	margin-bottom: 5px; 
 }
 
-#hr{
-
-	width:250px;
-	display: inline-flex;
-}
-
 #label{
-
 	width: 400px;
 	height: 30px;
 	border:2px solid  #364859;
@@ -324,15 +333,13 @@ table td{
 }
 
 #jobseeker_page{
-
 	background-color: #f5f7fa;
 }
 .jobseeker_submit{
-
 	text-align: flex;
 }
-#jobseeker_submit{
 
+#jobseeker_submit{
 	padding: 15px;
 	background-color: #d85808;
 	font-weight: bold;
@@ -345,7 +352,6 @@ table td{
 /* Jobseeker's profile page */
 
 .image-upload{
-
 	width: 33px;
  	height: 26px;
     background: url("images/icon-user.png") no-repeat;
@@ -362,30 +368,25 @@ table td{
   cursor: pointer;
 }
 #hr-profile{
-
 	width: 400px;
 	color: #d6d6d6;
 }
 
 .inner-profile{
-
 	width: 100%;
 	height: 300px;
 }
 .img-circular{
-
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
 }
 
 .details{
-
 	text-align: center;
 	font-family: Helvetica;
 }
 .outer-container{
-	
 	background-color:#f5f7fa;
 	width: 100%;
 	height: 400px;
@@ -411,7 +412,6 @@ table td{
 }
 
 #upload-cv{
-
 	background-color: transparent;
 	background-color: #2173b2;
 	border-radius: 5px;
@@ -431,7 +431,6 @@ table td{
 	color: white;
 }
 #text-letter{
-
 	border-radius: 20px;
 }
 
@@ -443,7 +442,6 @@ h5{
 /* Recruiter's registration  */
 
 #recruiter-register{
-
 	background-color: #f5f7fa;
 	position: relative;
 	margin: 20px;
@@ -458,7 +456,6 @@ h5{
 	font-size: 15px;
 }
 .wrapper-recruiter{
-
 	font-family: Helvetica;
 	width: 60%;
 	margin: 0 auto;
@@ -471,7 +468,6 @@ h5{
 	border-top-color: #29a3c1;
 }
 .alert-success{
-
 	background-color: green;
 	padding:5px;
 	font-size: 20px;
@@ -480,13 +476,11 @@ h5{
 /* Contact page */
 
 .container-contact{
-
 	font-family: Helvetica;
 	text-align: center;
 }
 
 #submit-contact{
-
 	color: white;
 	background-color: #3B5998;
 	padding: 10px;
@@ -495,7 +489,6 @@ h5{
 }
 
 #textarea{
-
 	border:2px solid  #364859;
 	border-radius: 5px; 
 	margin-left: 10px;
@@ -503,10 +496,9 @@ h5{
 
 /* Admin page */
 
-.container{
-
+/* .container{
 	background-color: grey;
-}
+} */
 
 .wrapper_admin{
 	width: 100%;
@@ -536,10 +528,10 @@ h5{
 
 /*  admin dashboard */
 #admin_navbar{
-
 	background-color: #343a40;
 	color: #cccecb;
 }
+/** Styles for Search **/
 #search{
 	background-color: transparent;
 	border: 1px solid green;
@@ -549,7 +541,6 @@ h5{
 	margin-left: 2px;
 }
 #search-text{
-
 	font-family: Helvetica;
 	background-color: green;
 	border-radius: 5px;
@@ -558,8 +549,8 @@ h5{
 	margin-right: 5px;
 	letter-spacing: 2px;
 }
+/** Styles for Dashboard **/
 .wrapper_dashboard{
-
 	width: 100%;
 	overflow: auto;
 }
@@ -570,7 +561,6 @@ h5{
 	background-color: #f8f9fa;
 }
 #admin_active{
-
 	background-color:#007bff;
 	color: white; 
 }
@@ -630,11 +620,9 @@ h5{
 }
 
 div#circle2:hover{
-
 	background-color: grey;
 }
 div#circle1:hover{
-
 	background-color: grey;
 }
 
@@ -665,7 +653,6 @@ div#circle1:hover{
 	text-align: center;
 }
 #post_txt{
-
 	background-color: transparent;
 	border:1px solid #dbf8ff;
 	border-radius: 5px;
@@ -678,20 +665,8 @@ div#circle1:hover{
 	border-radius: 5px;
 }
 
-/* Social media icons
-
-.fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-} */
 /** styles for social media **/
 .social [class*="fa fa-"] {
-    /* background-color: #333; */
     border-radius: 30px;
     color: #fff;
     display: inline-block;
@@ -731,8 +706,8 @@ div#circle1:hover{
 .fa-heart{
 	color: red;
 }
+/** Styles for footer **/
 .footer{
-
 	padding:30px;
 	background-color: #364859;	
 	text-align: center;
@@ -741,7 +716,6 @@ div#circle1:hover{
 .footer p small{
 	color: white;
 	font-family: Helvetica;
-
 }
 
 .terms a{
@@ -753,3 +727,5 @@ div#circle1:hover{
 	text-decoration: none;
 	display: inline-block;
 }
+
+  

@@ -10,13 +10,12 @@
 </head>
 <body>
 
-	<nav>
-	<!--<a href="index.php"><img src="images/logo-jobportal.png"></a>-->
-		<ul id="navbar">
-			<li><a href="index.php">Home</a></li>
+	<nav class="navbar">
+			<a class="logo" href="index.php">Home</a>
+			<ul id="nav">
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right;"><a class="active" href="register.php" id="register">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="register-btn" href="register.php">Register</a></li>
 		</ul>
 	</nav>
 
@@ -26,7 +25,7 @@
 
 		<div class="hero-text">
 
-			<h1 style="color: white;font-weight: bold;font-size: 50px;">Find a job that you<i class="fa fa-heart" aria-hidden="true"></i> love </h1>
+			<h1 class ="find-job">Find a job that you <i class="fa fa-heart" aria-hidden="true"></i> love </h1>
 
 		<br />
 
@@ -82,23 +81,38 @@
 <br />
 
 <div class="sector-row">
-	
-		<div class="container" id="sector">
-
-		<div class="company-text">
 			
-			<h1>Choose your sector</h1>
+	<h1>Choose your sector</h1>
 
-	<h3 style="text-align: center;">with one of these leading companies</h3>
+	<h3>Jobs across 50 sectors. See latest roles now.</h3>
 
-<div class="row" id="sectors">
+<div id="sectors" class="sector-col">
+
+<div class="box-sectors">
+
+	<img class="img-sectors" src="./images/technology.jpg" /> <br/>
+	<div class="text-sector">Technology</div>
+	
+</div>
+</div>
+<div class="box-sectors">
+
+	<img src="./images/engineering.jpg" /> <br/>
+	<div class="text-sector">Engineering</div>
+</div>
+
+<div class="box-sectors">
+
+	<img src="./images/health.jpeg" /> <br/>
+	<div class="text-sector">Health</div>
+	
+</div>
 
 	<div class="box-sectors">
 
 	<img src="./images/graduates.jpg" /> <br/>
-	<hr>
-		Graduates
-</div>
+	<div class="text-sector">Graduates</div>
+	</div>
 
 </div>
 	<br />
