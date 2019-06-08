@@ -13,12 +13,12 @@
 </head>
 <body>
 
-	<nav>
-		<ul>
-			<li><a href="index.php">Home</a></li>
+	<nav class="navbar">
+		<a class="logo" href="index.php"><img src="./images/logo-jobportal.png"></a>
+			<ul>
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right"><a class="active" href="register.php">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="active" href="register.php">Register</a></li>
 		</ul>
 	</nav>
 			
@@ -77,16 +77,15 @@ $emailTo ="hemlata.bhundhoo@outloo.com";
 	</div>
 
 	<div class="footer">
-		
+		<div class="social">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
 		<a href="#" class="fa fa-linkedin"></a>
 	
+		<p> <small>Copyright &copy; <?php echo date('Y')?></small></p>
 
-		<p> <small>Copyright &copy; 2017</small></p>
-
-
+		</div>
 	</div>
 
 </body>

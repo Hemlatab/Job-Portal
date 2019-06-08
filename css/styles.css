@@ -28,26 +28,9 @@ body {
   }
   .register-btn{
 	  padding: 10px;
-	  background-color: orange;
+	  background-color: #d95934;
 	  font-weight: bold;
   }
-/* .navbar{
-	display: flex;
-	justify-content: flex-end;
-	background-color: #1f5786;
-}
-.logo{
-	display: flex 1;
-	align-self: center;
-}
-
-.navbar ul li{
-	display: inline;
-	list-style-type: none;
-}
-ul{
-	padding: 0;
-} */
 
 .navbar a{
 	color: white;
@@ -55,7 +38,7 @@ ul{
 	font-family: Helvetica;
 } 
 .active{
-	background-color: #d85808;
+	background-color: #d95934;
 	padding: 14px;
 }
 
@@ -74,22 +57,21 @@ h3{
 }
 
 #image-home{
-
-	max-width: 1290;
-	min-height: 640;
-
+	/* background-size: cover;
+	background-position: center; */
+	/* max-width: 1290;
+	min-height: 640; */
 }
 /** Styles for Hero image area **/
 .hero-image{
-
-	/*--background-image:url("images/image-home.jpg");*/
+	background-image:url("../images/image-home.jpg"); 
+	height: 75vh;
 	width: 100%;
-	height: 50%;
-	background-position: center;
+	background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border-bottom: 5px solid #1f5786;
+	border-bottom: 5px solid #1f5786;
 }
 
 .hero-text {

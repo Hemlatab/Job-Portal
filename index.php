@@ -11,7 +11,7 @@
 <body>
 
 	<nav class="navbar">
-			<a class="logo" href="index.php">Home</a>
+			<a class="logo" href="index.php"><img src="./images/logo-jobportal.png"></a>
 			<ul id="nav">
 			<li><a href="contact.php">Contact</a></li>
 			<li><a  href="login.php">Login</a></li>
@@ -19,9 +19,9 @@
 		</ul>
 	</nav>
 
-	<div class="container" class="hero-image">
+	<div class="hero-image">
 
-		<img id="image-home" src="images/image-home.jpg">
+		 <!-- <img id="image-home" src="images/image-home.jpg"> -->
 
 		<div class="hero-text">
 
