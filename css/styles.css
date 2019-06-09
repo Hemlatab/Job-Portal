@@ -11,14 +11,12 @@ body {
 	background-color:#1f5786;
 	padding:10px;
 	display:flex;
-	flex-direction:row;
-	
+	flex-direction:row;	
   }
   
   .logo{
 	flex:1;
-	align-self:center;
-	
+	align-self:center;	
   }
   
   .navbar ul li{
