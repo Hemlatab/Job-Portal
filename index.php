@@ -97,20 +97,20 @@
 </div>
 <div class="box-sectors">
 
-	<img src="./images/engineering.jpg" /> <br/>
+	<img  class="img-sectors" src="./images/engineering.jpg" /> <br/>
 	<div class="text-sector">Engineering</div>
 </div>
 
 <div class="box-sectors">
 
-	<img src="./images/health.jpeg" /> <br/>
+	<img class="img-sectors" src="./images/health.jpeg" /> <br/>
 	<div class="text-sector">Health</div>
 	
 </div>
 
 	<div class="box-sectors">
 
-	<img src="./images/graduates.jpg" /> <br/>
+	<img class="img-sectors" src="./images/graduates.jpg" /> <br/>
 	<div class="text-sector">Graduates</div>
 	</div>
 
