@@ -5,7 +5,7 @@
 ## Screenshots
 
 ### _Landing Page_
-![landingPage](images/landingPageScreenshot.png)
+![landingPage](images/screencapture-Job-Portal.png)
 
 ## Technologies Used
 
