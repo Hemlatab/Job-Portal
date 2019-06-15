@@ -127,8 +127,8 @@ label{
 
 #company{
 	background-color: #f5f7fa;
-	padding-top: 20px;
-	padding-bottom: 30px;	
+	padding-top: 70px;
+	padding-bottom: 80px;	
 }
 
 .company-text{
@@ -193,6 +193,10 @@ label{
 	position: relative;
 	text-align: center;	
 }
+.img-sectors{
+	border-radius: 5%;
+	max-width: 100%;
+} 
 .box-sectors{
 	height:200px;
 	width:200px;
@@ -201,6 +205,7 @@ label{
 	background-size: cover;
 	position: relative;
 	display: inline-block;
+	margin: 5px;
 }
 .box-sectors:before{
 	content: '';
@@ -209,6 +214,7 @@ label{
 	top:0;
 	bottom:0;
 	width: 100%;
+	border-radius: 5%;
 }
 .sector-row{
 	padding: 75px 10px;
@@ -222,11 +228,9 @@ label{
 	transform: translate(-50%,-50%);
 	color:#ffffff;
 	font-size: 22px;
+	font-weight: bolder;
 }
-.img-sectors{
-	border-radius: 5%;
-	max-width: 100%;
-} 
+
 #sector-image{
 	border-radius: 8px;
 	margin-right: 50px;

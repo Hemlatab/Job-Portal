@@ -90,14 +90,14 @@
 
 <div class="box-sectors">
 
-	<img class="img-sectors" src="./images/technology.jpg" /> <br/>
+	<img class="img-sectors" src="./images/technology.jpeg" /> <br/>
 	<div class="text-sector">Technology</div>
 	
 </div>
 </div>
 <div class="box-sectors">
 
-	<img  class="img-sectors" src="./images/engineering.jpg" /> <br/>
+	<img  class="img-sectors" src="./images/engineering.jpeg" /> <br/>
 	<div class="text-sector">Engineering</div>
 </div>
 
@@ -110,7 +110,7 @@
 
 	<div class="box-sectors">
 
-	<img class="img-sectors" src="./images/graduates.jpg" /> <br/>
+	<img class="img-sectors" src="./images/graduates.jpeg" /> <br/>
 	<div class="text-sector">Graduates</div>
 	</div>
 
