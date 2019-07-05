@@ -621,6 +621,9 @@ div#circle1:hover{
 }
 
 /* Post Job admin area */
+.post-job-title{
+	color: #dbf8ff;
+}
 
 #post_job{
 	padding: 10px;
