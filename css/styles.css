@@ -263,7 +263,9 @@ table td{
 }
 
 #table-row{
-	background-color: #222e39;
+	/* background-color: #222e39; */
+	background-color: #364859;
+	align-content: center;
 }
 
 /* Login Page */
@@ -339,6 +341,9 @@ table td{
 }
 
 /* Jobseeker's profile page */
+.manage-cv{
+	font-family: 'Days One';
+}
 
 .image-upload{
 	width: 33px;
@@ -652,6 +657,10 @@ div#circle1:hover{
 	background-color: transparent;
 	border:1px solid #dbf8ff;
 	border-radius: 5px;
+}
+/** join job portal **//
+.join-jobportal{
+	color: #364859;
 }
 
 /** styles for social media **/

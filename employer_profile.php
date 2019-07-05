@@ -14,12 +14,12 @@
 </head>
 <body>
 
-	<nav>
+	<nav class="navbar">
 		<ul>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right"><a class="active" href="register.php">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="active" href="register.php">Register</a></li>
 		</ul>
 	</nav>
 			<h4>Welcome, recruiter</h4>
@@ -64,16 +64,15 @@
     </div>
     </div>
 	</div>
-
+	
 	<div class="footer">
-		
+		<div class="social">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
 		<a href="#" class="fa fa-linkedin"></a>
 	
-		<p> <small>Copyright &copy; 2017</small></p>
-
+		<p> <small>Copyright &copy; <?php echo date('Y');?></small></p>
 
 	</div>
 
