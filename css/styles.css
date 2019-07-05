@@ -54,12 +54,12 @@ h3{
 	text-align: center;
 }
 
-#image-home{
+/*#image-home{
 	/* background-size: cover;
 	background-position: center; */
 	/* max-width: 1290;
 	min-height: 640; */
-}
+
 /** Styles for Hero image area **/
 .hero-image{
 	background-image:url("../images/image-home.jpg"); 
@@ -388,8 +388,8 @@ table td{
 .left-container{
 	float: left;
 	width: 55%;
-	height: 400px
-	background-color:white;
+	height: 400px;
+	background-color: white;
 	border-radius: 5px;
 	font-family: Helvetica;
 	margin-left: 25px;
@@ -398,7 +398,7 @@ table td{
 .right-container{
 	float: left;
 	width: 30%;
-	height: 400px
+	height: 400px;
 	background-color:white;
 	border-radius: 5px;
 	font-family: Helvetica;
@@ -661,7 +661,7 @@ div#circle1:hover{
 	border:1px solid #dbf8ff;
 	border-radius: 5px;
 }
-/** join job portal **//
+/** join job portal **/
 .join-jobportal{
 	color: #364859;
 }
