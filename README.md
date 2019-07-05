@@ -9,7 +9,6 @@
 		* CSS
 		* PHP
 
-## Screenshots
 
 ### _Landing Page_
 ![landingPage](images/screencapture-Job-Portal.png)
