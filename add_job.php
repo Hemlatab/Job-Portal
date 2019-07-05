@@ -5,33 +5,27 @@
 	<title>Job Portal</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style type="text/css">
-		.error{
-
-			color: red;
-		}
-	</style>
 </head>
 <body>
 
-	<nav>
+	<nav class="navbar">
 		<ul>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right"><a class="active" href="register.php">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="active" href="register.php">Register</a></li>
 		</ul>
 	</nav>
 	<?php echo date("h:i:sa");?>
 	
-	<h3 style="float: right;">Hello admin!</h3>
+	<h3>Hello admin!</h3>
 	
 	<div class="wrapper_admin">
 
 		<div class="section_add">
 		
 
-			<h3 style="color: #dbf8ff;">POST JOB</h3>
+			<h3 class="post-job-title">POST JOB</h3>
 
 			<hr>
 
@@ -89,7 +83,7 @@
 	</div>
 </form>
 	<div class="footer">
-		
+		<div class="social">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
@@ -98,7 +92,7 @@
 
 		<p> <small>Copyright &copy; 2017</small></p>
 
-
+		</div>
 	</div>
 
 </body>
