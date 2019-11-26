@@ -4,21 +4,15 @@
 	<title>Job Portal</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style type="text/css">
-		.error{
-
-			color: red;
-		}
-	</style>
 </head>
 <body>
 
-	<nav>
-		<ul>
-			<li><a href="index.php">Home</a></li>
+	<nav class="navbar">
+		<a class="logo" href="index.php"><img src="./images/logo-jobportal.png"></a>
+			<ul>
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right"><a class="active" href="register.php">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="active" href="register.php">Register</a></li>
 		</ul>
 	</nav>
 			
@@ -41,7 +35,7 @@ $emailTo ="hemlata.bhundhoo@outloo.com";
 	if(mail($emailTo,$subject,$body,$headers)){
 	//returns 1 or 0 depending if its succesful
 
-	echo '<br/><div class="alert-success" >Email was sent successfully.</div>';
+	echo '<br/><div class="alert-success">Email was sent successfully.</div>';
 
 }else{
 
@@ -77,16 +71,15 @@ $emailTo ="hemlata.bhundhoo@outloo.com";
 	</div>
 
 	<div class="footer">
-		
+		<div class="social">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
 		<a href="#" class="fa fa-linkedin"></a>
 	
+		<p> <small>Copyright &copy; <?php echo date('Y')?></small></p>
 
-		<p> <small>Copyright &copy; 2017</small></p>
-
-
+		</div>
 	</div>
 
 </body>

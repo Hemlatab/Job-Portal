@@ -13,7 +13,7 @@
 
 	<nav>
 		<ul id="admin_navbar">
-			<li><a style="font-weight: bolder;font-size: 20px;letter-spacing: -1px;" href="#">Dashboard</a></li>
+			<li><a href="#">Dashboard</a></li>
 			<li><a href="index.php">Home</a></li>
 			<li><a  href="login.php">Logout</a></li>
 			<li style="float: right;"><input type="text" id="search"><a style="float: right;" href="#" id="search-text"> Search</a></li>

@@ -34,9 +34,9 @@ require_once "includes/jobseeker_form_validation.php";
     	
     	<div class="wrapper">
     	
-    		<h1 style="color: #364859;">Join Job Portal</h1>
+    		<h1 class="join-jobportal">Join Job Portal</h1>
 
-    		<p style="text-align: center;"><hr id="hr"> Your account <hr id="hr"></p>
+    		<p><hr id="hr"> Your account <hr id="hr"></p>
 
     		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 
