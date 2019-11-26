@@ -14,8 +14,8 @@
 		<ul id="navbar">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="contact.php">Contact</a></li>
-			<li style="float: right, background-color:orange"><a  href="login.php">Login</a></li>
-			<li style="float: right;"><a class="active" href="register.php" id="register">Register</a></li>
+			<li><a  href="login.php">Login</a></li>
+			<li><a class="active" href="register.php" id="register">Register</a></li>
 		</ul>
 	</nav>
 
@@ -25,7 +25,7 @@
 
 		<div class="hero-text">
 
-			<h1 style="color: white;font-weight: bold;font-size: 50px;">Find a job that you<i class="fa fa-heart" aria-hidden="true"></i> love </h1>
+			<h1 class="find-job">Find a job that you<i class="fa fa-heart" aria-hidden="true"></i> love </h1>
 
 		<br />
 
@@ -52,7 +52,7 @@
 
 			<h1>Apply today for your next role</h1>
 
-			<h3 style="text-align: center;">with one of these leading companies</h3>
+			<h3 class="leading-companies">with one of these leading companies</h3>
 
 		<div class="row" id="companies">
 

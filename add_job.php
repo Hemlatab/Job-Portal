@@ -5,12 +5,6 @@
 	<title>Job Portal</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style type="text/css">
-		.error{
-
-			color: red;
-		}
-	</style>
 </head>
 <body>
 
@@ -24,14 +18,14 @@
 	</nav>
 	<?php echo date("h:i:sa");?>
 	
-	<h3 style="float: right;">Hello admin!</h3>
+	<h3 class="hello-admin">Hello admin!</h3>
 	
 	<div class="wrapper_admin">
 
 		<div class="section_add">
 		
 
-			<h3 style="color: #dbf8ff;">POST JOB</h3>
+			<h3 class="post-job-title">POST JOB</h3>
 
 			<hr>
 
