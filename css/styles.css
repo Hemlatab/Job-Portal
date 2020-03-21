@@ -100,7 +100,11 @@ label{
 	width: 300px;
 	height: 30px;
 }
-
+.find-job{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
 /* Search job button */
 
 #search-job{
@@ -129,6 +133,10 @@ label{
 	background-color: #f5f7fa;
 	padding-top: 70px;
 	padding-bottom: 80px;	
+}
+
+.leading-companies{
+	text-align: center;
 }
 
 .company-text{
@@ -469,7 +477,10 @@ h5{
 	padding:5px;
 	font-size: 20px;
 }
+.error{
 
+	color: red;
+}
 /* Contact page */
 
 .container-contact{
@@ -502,6 +513,11 @@ h5{
 	overflow: auto;
 }
 
+#admin_navbar{
+	font-weight: bolder;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
 .section{
 	float: left;
 	width: 60%;
@@ -626,6 +642,14 @@ div#circle1:hover{
 /* Post Job admin area */
 .post-job-title{
 	color: #dbf8ff;
+}
+
+.post-job-title{
+	color: #dbf8ff;
+}
+
+.hello-admin{
+	float: right;
 }
 
 #post_job{

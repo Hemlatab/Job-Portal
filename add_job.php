@@ -18,7 +18,11 @@
 	</nav>
 	<?php echo date("h:i:sa");?>
 	
+<<<<<<< HEAD
+	<h3 class="hello-admin">Hello admin!</h3>
+=======
 	<h3>Hello admin!</h3>
+>>>>>>> 92ce883d5851338645d04df69f7e2697077c327b
 	
 	<div class="wrapper_admin">
 
