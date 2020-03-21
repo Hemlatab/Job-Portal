@@ -27,7 +27,7 @@
 			Password<br><br>
 			<input type="password" name="password" id="label"><br><br>
 
-			<input type="button" name="login-btn" value="Login" id="login-btn"> or <a href="register.php">Register</a><br>
+			<input type="button" name="login-btn" value="Login" id="login-btn"> or <a class="register-login" href="register.php">Register</a><br>
 
 		</div>
 		

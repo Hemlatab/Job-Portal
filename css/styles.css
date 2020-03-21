@@ -105,7 +105,7 @@ label{
 
 #search-job{
 
-	background-color: #d85808;
+	background-color: #190ccb;
 	padding: 3px;
 	font-weight: bold;
 	font-family: Helvetica;
@@ -300,7 +300,10 @@ table td{
 	font-weight: bold;
 	background-color:orange;
 }
-
+.register-login{
+	text-decoration: none;
+	color:orangered;
+}
 /* Job seeker's register */
 
 .wrapper{
