@@ -15,11 +15,7 @@
 			<ul id="nav">
 			<li><a href="contact.php">Contact</a></li>
 			<li><a  href="login.php">Login</a></li>
-<<<<<<< HEAD
-			<li><a class="active" href="register.php" id="register">Register</a></li>
-=======
 			<li><a class="register-btn" href="register.php">Register</a></li>
->>>>>>> 92ce883d5851338645d04df69f7e2697077c327b
 		</ul>
 	</nav>
 
@@ -29,11 +25,7 @@
 
 		<div class="hero-text">
 
-<<<<<<< HEAD
-			<h1 class="find-job">Find a job that you<i class="fa fa-heart" aria-hidden="true"></i> love </h1>
-=======
 			<h1 class ="find-job">Find a job that you <i class="fa fa-heart" aria-hidden="true"></i> love </h1>
->>>>>>> 92ce883d5851338645d04df69f7e2697077c327b
 
 		<br />
 
