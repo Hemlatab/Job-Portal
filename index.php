@@ -33,9 +33,9 @@
 
 			<table>
 				<tr>
-				<td><label for="text">what</label> <input type="text" id="text" name="what" placeholder=" e.g junior developer"></td>
+				<td><label for="text">What</label> <input type="text" id="text" name="what" placeholder=" e.g junior developer"></td>
 
-				<td><label for="text">where</label> <input type="text" id="text" name="where" placeholder="e.g town or postcode"></td>
+				<td><label for="text">Where</label> <input type="text" id="text" name="where" placeholder="e.g town or postcode"></td>
 		
 				<td><button type="button" id="search-job">Search jobs</button></td>
 			</tr>
