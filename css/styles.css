@@ -26,7 +26,7 @@ body {
   }
   .register-btn{
 	  padding: 10px;
-	  background-color: #d95934;
+	  background-color: #e94688;
 	  font-weight: bold;
   }
 
@@ -99,6 +99,8 @@ label{
 #text{
 	width: 300px;
 	height: 30px;
+	border-radius: 5px;
+	font-size: 16px;
 }
 .find-job{
 	color: white;
@@ -109,11 +111,12 @@ label{
 
 #search-job{
 
-	background-color: #d95934;
-	padding: 3px;
+	background-color: #e94688;
+	padding: 5px;
 	font-weight: bold;
 	font-family: Helvetica;
 	font-size: 15px;
+	border-radius: 5px;
 }
 
 #find-job{
@@ -147,12 +150,21 @@ label{
 	margin: 30px;
 	border: 1px solid grey;
     border-radius: 5px;
-    padding: 30px;
+	padding: 30px;
+	background-color: #fff;
+	color: grey;
+	width: 300px;
+	height: 100px;
 }
 
+.box-companies a{
+	text-decoration: none;
+}
 #hr{
 	width:250px;
 	display: inline-flex;
+	color: red;
+	margin-top: 30px;
 }
 /*  sector section */
 
@@ -206,7 +218,7 @@ label{
 	max-width: 100%;
 } 
 .box-sectors{
-	height:200px;
+	height:300px;
 	width:200px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -219,7 +231,6 @@ label{
 	content: '';
 	background-color: rgba(52, 58, 64, 0.3);
 	position: absolute;
-	top:0;
 	bottom:0;
 	width: 100%;
 	border-radius: 5%;
@@ -306,7 +317,7 @@ table td{
 #register{
 	float: right;
 	font-weight: bold;
-	background-color:orange;
+	background-color:#e94688;
 }
 .register-login{
 	text-decoration: none;
