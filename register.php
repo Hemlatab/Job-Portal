@@ -34,7 +34,7 @@
 				<option value="jobseeker" id="label">Jobseeker</option>
 			</select>
 <br><br>
-			<input type="button" name="register-btn" value="Click here to Register"> <br>
+			<input type="button" class="register-btn" name="register-btn" value="Click here to Register"> <br>
 
 		</div>
 		

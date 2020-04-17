@@ -28,6 +28,7 @@ body {
 	  padding: 10px;
 	  background-color: #e94688;
 	  font-weight: bold;
+	  color: #fff;
   }
 
 .navbar a{
@@ -257,7 +258,7 @@ label{
 }
 
 #sector-image:hover {
-	opacity: 0.50;	
+	opacity: 0.7;	
 }
 
 /*  Links to jobs, recruiters, about us */
@@ -515,10 +516,6 @@ h5{
 
 /* Admin page */
 
-/* .container{
-	background-color: grey;
-} */
-
 .wrapper_admin{
 	width: 100%;
 	overflow: auto;
@@ -527,8 +524,20 @@ h5{
 #admin_navbar{
 	font-weight: bolder;
 	font-size: 20px;
-	letter-spacing: -1px;
+	display: flex;
+	margin: 0px;
+	padding: 10px;
 }
+
+#admin_navbar li{
+	list-style: none;
+}
+
+#admin_navbar a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .section{
 	float: left;
 	width: 60%;
@@ -551,11 +560,18 @@ h5{
 }
 
 /*  admin dashboard */
+
 #admin_navbar{
 	background-color: #343a40;
 	color: #cccecb;
 }
+
+/* .active_dashboard{
+	color: #fff;
+} */
+
 /** Styles for Search **/
+
 #search{
 	background-color: transparent;
 	border: 1px solid green;
@@ -573,21 +589,30 @@ h5{
 	margin-right: 5px;
 	letter-spacing: 2px;
 }
+
+.header-dashboard{
+	font-weight: bolder;
+	color: #343a40;
+	letter-spacing: 1px;
+}
 /** Styles for Dashboard **/
 .wrapper_dashboard{
 	width: 100%;
 	overflow: auto;
 }
+
 .admin_menu{
 	float: left;
 	width: 13%;
 	height:900px;
 	background-color: #f8f9fa;
 }
-#admin_active{
+
+#active_dashboard{
 	background-color:#007bff;
-	color: white; 
+	color:#fff; 
 }
+
 #menu_list{
 	list-style-type: none;
 	margin: 0 auto;
@@ -596,6 +621,7 @@ h5{
 	background-color: #f8f9fa;
 	margin-top: 70px;
 }
+
 #menu_list a{
 	color: #007bff;
 	padding: 10px 20px 10px 20px;
@@ -603,6 +629,10 @@ h5{
 	margin-left: 10px;
 	font-size: 16px;
 }
+#menu_list li{
+	list-style: none;
+}
+
 #active{
 	background-color:#007bff;
 	color: white;

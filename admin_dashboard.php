@@ -16,7 +16,7 @@
 			<li><a href="#">Dashboard</a></li>
 			<li><a href="index.php">Home</a></li>
 			<li><a  href="login.php">Logout</a></li>
-			<li style="float: right;"><input type="text" id="search"><a style="float: right;" href="#" id="search-text"> Search</a></li>
+			<li><input type="text" id="search"><a href="#" id="search-text"> Search</a></li>
 		</ul>
 	</nav>
 	
@@ -25,7 +25,7 @@
 		<div class="admin_menu">
 
 			<ul id="menu_list">
-				<li><a href="#" id="active" style="color: white;">Overview</a></li><br>
+				<li><a href="#" id="active_dashboard">Overview</a></li><br>
 				<li><a href="#">View reports</a></li><br>
 				<li><a href="#">Analytics</a></li><br>
 				<li><a href="#">View users</a></li><br>
@@ -37,8 +37,8 @@
 		</div>
 
 		<div class="dashboard">
-				<li style="float: right,color: grey;"><a href="#">Welcome, admin</a></li>
-			<h1 style="font-weight: bolder;color: #343a40;letter-spacing: 1px;">Dashboard</h1>
+				<li><a href="#">Welcome, admin</a></li>
+			<h1 class="header-dashboard">Dashboard</h1>
 			<hr>
 
 			<div class="circle">
