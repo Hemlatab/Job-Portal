@@ -79,19 +79,19 @@
 
 			<div class="box-companies">
 
-			<img src="images/hsbc.png" /> <br/>
+			<img src="images/Lidl_logo.png" /> <br/>
 			<hr>
 				Jobs at <a href="#">HSBC</a>
 		</div>
 
 		<div class="box-companies">
-			<img src="images/lloyds.png" /><br/>
+			<img src="images/accenture-logo.jpeg" /><br/>
 			<hr>
 				Jobs at <a href="#">Lloyds</a>
 		</div>
 
 		<div class="box-companies">
-			<img src="images/tkmaxx.png" /><br/>
+			<img src="images/personnel.jpeg" /><br/>
 				<hr>
 				Jobs at <a href="#">TkMaxx</a>
 		</div>
