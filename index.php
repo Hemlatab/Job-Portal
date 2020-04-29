@@ -15,7 +15,7 @@
 			<ul id="nav">
 			<li><a href="contact.php">Contact</a></li>
 			<li><a  href="login.php">Login</a></li>
-			<li><a class="register-btn" href="register.php">Register</a></li>
+			<li><a class="register-btn" href="register.php">Register CV</a></li>
 		</ul>
 	</nav>
 

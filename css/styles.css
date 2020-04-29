@@ -9,7 +9,7 @@ body {
 
 .navbar{
 	background-color:#1f5786;
-	padding:10px;
+	padding:3px;
 	display:flex;
 	flex-direction:row;	
   }
@@ -21,14 +21,21 @@ body {
   
   .navbar ul li{
 	list-style-type:none;
-	 display:inline;
+	display:inline;
 	margin:5px;
   }
+
   .register-btn{
-	  padding: 10px;
-	  background-color: #e94688;
-	  font-weight: bold;
+	  padding: 12px;
+	  background-color:transparent;
 	  color: #fff;
+	  border-radius: 25px;
+	  border:2px solid #fff;
+  }
+
+  .register-btn:hover{
+	background-color: #fff;
+	color: #1f5786;
   }
 
 .navbar a{
@@ -128,7 +135,7 @@ label{
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 100%;
-	opacity: 0.6;
+	opacity: 0.8;
 	border-radius: 8px;
 }
 /** Styles for company section **/
