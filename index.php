@@ -75,6 +75,27 @@
 				Jobs at <a href="#">TkMaxx</a>
 		</div>
 
+		<div class="row" id="companies">
+
+			<div class="box-companies">
+
+			<img src="images/hsbc.png" /> <br/>
+			<hr>
+				Jobs at <a href="#">HSBC</a>
+		</div>
+
+		<div class="box-companies">
+			<img src="images/lloyds.png" /><br/>
+			<hr>
+				Jobs at <a href="#">Lloyds</a>
+		</div>
+
+		<div class="box-companies">
+			<img src="images/tkmaxx.png" /><br/>
+				<hr>
+				Jobs at <a href="#">TkMaxx</a>
+		</div>
+
 		</div> 
 	</div>
 	</div> 
