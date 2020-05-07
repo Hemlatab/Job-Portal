@@ -223,7 +223,9 @@ label{
 }
 .img-sectors{
 	border-radius: 5%;
-	max-width: 100%;
+	/* max-width: 100%; */
+	padding: 10px;
+
 } 
 .box-sectors{
 	height:300px;
@@ -233,7 +235,8 @@ label{
 	background-size: cover;
 	position: relative;
 	display: inline-block;
-	margin: 5px;
+	margin: 15px;
+	padding: 20px;
 }
 .box-sectors:before{
 	content: '';
