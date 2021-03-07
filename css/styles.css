@@ -104,12 +104,14 @@ label{
 	font-family: 'Marck Script';
 	font-size: 22px;
 }
+
 #text{
 	width: 300px;
 	height: 30px;
 	border-radius: 5px;
 	font-size: 16px;
 }
+
 .find-job{
 	color: white;
 	font-weight: bold;
@@ -153,6 +155,7 @@ label{
 .company-text{
 	text-align: center;
 }
+
 .box-companies{
 	display: inline-block;
 	margin: 30px;
@@ -168,12 +171,14 @@ label{
 .box-companies a{
 	text-decoration: none;
 }
+
 #hr{
 	width:250px;
 	display: inline-flex;
 	color: red;
 	margin-top: 30px;
 }
+
 /*  sector section */
 
 .main-container {
@@ -188,6 +193,7 @@ label{
     float: left;
     background-image: url("images/technology.jpg");
 }
+
 #tile2 {
     width: 170px;
     height: 140px;
@@ -196,6 +202,7 @@ label{
     float: left;
     background-image: url("images/engineering.jpg");
 }
+
 #tile3 {
     width: 170px;
     height: 140px;
@@ -204,6 +211,7 @@ label{
     float: left;
     background-image: url("images/graduates.jpg");
 }
+
 #tile4 {
     width: 170px;
     height: 140px;
@@ -212,10 +220,12 @@ label{
     float: left;
     background-image: url("images/health.jpg");
 }
+
 .clearfix {
     overflow:auto;
 }
 /** Styles for Sector **/
+
 #sectors{
 	display: inline-block;
 	position: relative;
@@ -227,6 +237,7 @@ label{
 	padding: 10px;
 
 } 
+
 .box-sectors{
 	height:300px;
 	width:200px;
@@ -238,6 +249,7 @@ label{
 	margin: 15px;
 	padding: 20px;
 }
+
 .box-sectors:before{
 	content: '';
 	background-color: rgba(52, 58, 64, 0.3);
@@ -246,10 +258,12 @@ label{
 	width: 100%;
 	border-radius: 5%;
 }
+
 .sector-row{
 	padding: 75px 10px;
 	text-align: center;
 }
+
 .text-sector{
 	text-align:center;
 	position: absolute;
@@ -304,6 +318,7 @@ table td{
 	font-family: Helvetica;
 	text-align: center;
 }
+
 #login-btn{
 	color: white;
 	background-color: #29a3c1;
@@ -330,10 +345,12 @@ table td{
 	font-weight: bold;
 	background-color:#e94688;
 }
+
 .register-login{
 	text-decoration: none;
 	color:orangered;
 }
+
 /* Job seeker's register */
 
 .wrapper{
@@ -359,6 +376,7 @@ table td{
 #jobseeker_page{
 	background-color: #f5f7fa;
 }
+
 .jobseeker_submit{
 	text-align: flex;
 }
@@ -374,6 +392,7 @@ table td{
 }
 
 /* Jobseeker's profile page */
+
 .manage-cv{
 	font-family: 'Days One';
 }
@@ -386,6 +405,7 @@ table td{
     display: block;
     position: relative;
 }
+
 #image_src{
   width: 26px;
   height: 26px;
@@ -394,6 +414,7 @@ table td{
   filter: alpha(opacity=0);
   cursor: pointer;
 }
+
 #hr-profile{
 	width: 400px;
 	color: #d6d6d6;
@@ -403,6 +424,7 @@ table td{
 	width: 100%;
 	height: 300px;
 }
+
 .img-circular{
 	margin:0 auto;
 	display: flex;
@@ -413,11 +435,13 @@ table td{
 	text-align: center;
 	font-family: Helvetica;
 }
+
 .outer-container{
 	background-color:#f5f7fa;
 	width: 100%;
 	height: 400px;
 }
+
 .left-container{
 	float: left;
 	width: 55%;
@@ -447,6 +471,7 @@ table td{
 	font-size: 15px;
 	color: white;
 }
+
 #edit-letter{
 	background-color: transparent;
 	background-color: #2173b2;
@@ -457,6 +482,7 @@ table td{
 	margin-left: 30px;
 	color: white;
 }
+
 #text-letter{
 	border-radius: 20px;
 }
@@ -473,6 +499,7 @@ h5{
 	position: relative;
 	margin: 20px;
 }
+
 #recruiter_submit{
 	padding: 15px 40px 15px;
 	background-color: #d85808;
@@ -482,6 +509,7 @@ h5{
 	color: white;
 	font-size: 15px;
 }
+
 .wrapper-recruiter{
 	font-family: Helvetica;
 	width: 60%;
@@ -669,6 +697,7 @@ h5{
     margin-left: 20px;
     margin-right: 18px;
 }
+
 #circle2{
     background: #00dc83;
     width: 200px;
@@ -677,6 +706,7 @@ h5{
     margin-left: 20px;
     margin-right: 18px;
 }
+
 #circle-text{
 	margin-top: 240px;
 	padding-right: 30px;
@@ -686,6 +716,7 @@ h5{
 div#circle2:hover{
 	background-color: grey;
 }
+
 div#circle1:hover{
 	background-color: grey;
 }
@@ -710,6 +741,7 @@ div#circle1:hover{
 	font-weight: bold;
 	font-size: 15px;
 }
+
 .section_add{
 	float: left;
 	width: 60%;
@@ -727,6 +759,7 @@ div#circle1:hover{
 	background-color: #acb1ab;
 	text-align: center;
 }
+
 #post_txt{
 	background-color: transparent;
 	border:1px solid #dbf8ff;
@@ -734,12 +767,15 @@ div#circle1:hover{
 	width: 400px;
 	height: 40px;
 }
+
 #txt_desc{
 	background-color: transparent;
 	border:1px solid #dbf8ff;
 	border-radius: 5px;
 }
+
 /** join job portal **/
+
 .join-jobportal{
 	color: #364859;
 }
@@ -759,6 +795,7 @@ div#circle1:hover{
     text-align: center;
     padding: 2px;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
