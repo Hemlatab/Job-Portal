@@ -343,12 +343,12 @@ table td{
 #register{
 	float: right;
 	font-weight: bold;
-	background-color:#e94688;
+	background-color:#ff4500;
 }
 
 .register-login{
 	text-decoration: none;
-	color:orangered;
+	color:#ff4500;
 }
 
 /* Job seeker's register */
